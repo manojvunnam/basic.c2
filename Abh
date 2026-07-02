@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+    float cm, inches, feet;
+    printf("Enter length in cm: ");
+    scanf("%f", &cm);
+    inches = cm * 0.3937;
+    feet = cm / 30.48;
+    printf("Inches = %.2f\n", inches);
+    printf("Feet = %.2f\n", feet);
+    return 0;
+}
