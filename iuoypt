@@ -1,0 +1,26 @@
+#include <stdio.h>
+int main() {
+    int marks;
+    printf("Enter your marks: ");
+    scanf("%d", &marks);
+  
+    if (marks >= 90 && marks <= 100) {
+        printf("Rank: A (Excellent)");
+    }
+    else if (marks >= 75) {
+        printf("Rank: B (Very Good)");
+    }
+    else if (marks >= 60) {
+        printf("Rank: C (Good)");
+    }
+    else if (marks >= 50) {
+        printf("Rank: D (Average)");
+    }
+    else if (marks >= 0) {
+        printf("Rank: F (Fail)");
+    }
+    else {
+        printf("Invalid marks!");
+    }
+    return 0;
+}
